@@ -31,9 +31,9 @@ public class UserRestController {
     
     @GetMapping("/list")
     public List<User> list() {
-        User user = new User("Andres", "Guzman");
-        User user2 = new User("Pepe", "Doe");
-        User user3 = new User("Jhon", "Doe");
+        User user = new User("Nacho", "Bootez");
+        User user2 = new User("Maria", "Calat");
+        User user3 = new User("John", "Wick");
 
         List<User> users = Arrays.asList(user, user2, user3);
         // List<User> users = new ArrayList<>();
